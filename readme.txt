@@ -21,7 +21,7 @@ function new_gallery_shortcode_defaults( $defaults ) {
 	$defaults = array(
 		'link'           => 'post', // 'post', 'file', 'none'
 		'columns'        => 3, // # number
-		'_orderbyRandom' => 'on', // 'on' or empty string ''
+		'_orderbyRandom' => '', // 'on' or empty string ''
 		'size'           => 'thumbnail', // 'thumbnail', 'medium', 'large', 'full'
 	);
 
